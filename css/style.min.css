@@ -951,11 +951,15 @@ nav {
   }
   .bottom_site_selector .bottom_icons_box {
     bottom: 55px;
-    left: 27%;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
   }
   .bottom_site_selector .bottom_app_box {
     bottom: 18px;
-    right: 10%;
+    right: 50%;
+    -webkit-transform: translateX(50%);
+            transform: translateX(50%);
   }
   .bottom_site_selector .lang {
     margin-top: 10px;
